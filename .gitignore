@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.log
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+*.env
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.pid
+*.tar
+*.bak
+docker-compose.override.yml
+
+# Kubernetes
+# Ignore kubeconfig (contains cluster credentials)
+kubeconfig
+kubeconfig.yaml
+
+# Node / npm (if frontend exists in future)
+node_modules/
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+
+# Build & cache
+dist/
+build/
+*.egg-info
+.cache/
